@@ -1,2 +1,5 @@
+[vfs.browser.filter]
+*\[^~#\]
 [action]
+open-file
 backspace

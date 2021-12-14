@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="WIN-9DGWQQ2" name="org.gjt.sp.jedit.textarea.RangeMapTest" skipped="0" tests="8" time="0.018" timestamp="2021-12-14T20:32:30">
+<testsuite errors="0" failures="0" hostname="WIN-9DGWQQ2" name="org.gjt.sp.jedit.textarea.RangeMapTest" skipped="0" tests="8" time="0.02" timestamp="2021-12-14T21:34:29">
   <properties>
     <property name="sun.boot.library.path.ivy.instance" value="C:\Program Files\Java\jdk-11.0.12\bin" />
     <property name="java.specification.version" value="11" />
@@ -15,7 +15,7 @@
     <property name="ivy.default.conf.dir.ivy.instance" value="jar:file:/C:/Users/Lake/Documents/VSCode%20Repositories/cs3354-f21-team12/lib/ivy/ivy-2.2.0.jar!/org/apache/ivy/core/settings" />
     <property name="ivy.conf.dir" value="C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\build" />
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.12\bin" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner testsfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junittestcases7113720956678683105.properties skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\build\test\raw-reports\IGNORETHIS.xml crashfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junitvmwatcher12764255045877887450.properties propsfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junit15619637979316887926.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner testsfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junittestcases2054414123315755040.properties skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\build\test\raw-reports\IGNORETHIS.xml crashfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junitvmwatcher971048489360827946.properties propsfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junit4546912927838299666.properties" />
     <property name="os.version.ivy.instance" value="10.0" />
     <property name="ivy.retrieve.pattern.ivy.instance" value="C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12/lib/[artifact]-[revision](-[classifier]).[ext]" />
     <property name="user.dir.ivy.instance" value="C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12" />
@@ -156,7 +156,7 @@
     <property name="sun.stderr.encoding" value="cp437" />
     <property name="jedit.version.final" value="true" />
     <property name="ivy.resolve.default.type.filter" value="*" />
-    <property name="org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer0" value="C:\Users\Lake\AppData\Local\Temp\null1018087825" />
+    <property name="org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer0" value="C:\Users\Lake\AppData\Local\Temp\null1502453015" />
     <property name="sun.management.compiler.ivy.instance" value="HotSpot 64-Bit Tiered Compilers" />
     <property name="ivy.cache.ttl.default.ivy.instance" value="10s" />
     <property name="file.separator" value="\" />
@@ -246,13 +246,13 @@
     <property name="ivy.resolved.configurations" value="default, master, compile, runtime, test, provided, sources, javadoc, ant-contrib, docbook, fop, launch4j, scripting, default-plugins, appbundler" />
     <property name="ivy.conf.url" value="file:/C:/Users/Lake/Documents/VSCode%20Repositories/cs3354-f21-team12/build/ivysettings.xml" />
   </properties>
-  <testcase classname="org.gjt.sp.jedit.textarea.RangeMapTest" name="search" time="0.007" />
-  <testcase classname="org.gjt.sp.jedit.textarea.RangeMapTest" name="copy" time="0.001" />
+  <testcase classname="org.gjt.sp.jedit.textarea.RangeMapTest" name="search" time="0.01" />
+  <testcase classname="org.gjt.sp.jedit.textarea.RangeMapTest" name="copy" time="0.002" />
   <testcase classname="org.gjt.sp.jedit.textarea.RangeMapTest" name="hide" time="0.0" />
-  <testcase classname="org.gjt.sp.jedit.textarea.RangeMapTest" name="last" time="0.001" />
+  <testcase classname="org.gjt.sp.jedit.textarea.RangeMapTest" name="last" time="0.0" />
   <testcase classname="org.gjt.sp.jedit.textarea.RangeMapTest" name="show" time="0.001" />
   <testcase classname="org.gjt.sp.jedit.textarea.RangeMapTest" name="first" time="0.0" />
-  <testcase classname="org.gjt.sp.jedit.textarea.RangeMapTest" name="last2" time="0.0" />
+  <testcase classname="org.gjt.sp.jedit.textarea.RangeMapTest" name="last2" time="0.001" />
   <testcase classname="org.gjt.sp.jedit.textarea.RangeMapTest" name="preContentRemoved" time="0.001" />
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

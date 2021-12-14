@@ -1,8 +1,8 @@
 [vfs.browser.filter]
 *\[^~#\]
 [action]
+close-view
+toggle-gutter
+toggle-statusbar
 open-file
 backspace
-[vfs.browser.path]
-C:\\Users\\Lake\\Documents
-C:\\Users\\Lake\\Documents\\VSCode Repositories\\cs3354-f21-team12

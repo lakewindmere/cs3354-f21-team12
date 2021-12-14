@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="0" hostname="WIN-9DGWQQ2" id="0" name="MiscUtilitiesTest" package="org.gjt.sp.jedit" skipped="0" tests="94" time="2.054" timestamp="2021-12-14T20:32:27">
+  <testsuite errors="0" failures="0" hostname="WIN-9DGWQQ2" id="0" name="MiscUtilitiesTest" package="org.gjt.sp.jedit" skipped="0" tests="94" time="2.022" timestamp="2021-12-14T21:34:27">
       <properties>
           <property name="sun.boot.library.path.ivy.instance" value="C:\Program Files\Java\jdk-11.0.12\bin" />
 
@@ -30,7 +30,7 @@
 
           <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.12\bin" />
 
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner testsfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junittestcases7113720956678683105.properties skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\build\test\raw-reports\IGNORETHIS.xml crashfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junitvmwatcher12764255045877887450.properties propsfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junit15619637979316887926.properties" />
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner testsfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junittestcases2054414123315755040.properties skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\build\test\raw-reports\IGNORETHIS.xml crashfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junitvmwatcher971048489360827946.properties propsfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junit4546912927838299666.properties" />
 
           <property name="os.version.ivy.instance" value="10.0" />
 
@@ -312,7 +312,7 @@
 
           <property name="ivy.resolve.default.type.filter" value="*" />
 
-          <property name="org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer0" value="C:\Users\Lake\AppData\Local\Temp\null1018087825" />
+          <property name="org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer0" value="C:\Users\Lake\AppData\Local\Temp\null1502453015" />
 
           <property name="sun.management.compiler.ivy.instance" value="HotSpot 64-Bit Tiered Compilers" />
 
@@ -492,43 +492,43 @@
 
       </properties>
 
-      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="concatPath" time="1.559" />
+      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="concatPath" time="1.523" />
 
       <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="pathsEqualFalse" time="0.012" />
 
-      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="abbreviateUserHomeUnix" time="0.03" />
+      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="abbreviateUserHomeUnix" time="0.027" />
 
       <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getLastSeparatorIndexAbsolute" time="0.0" />
 
-      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getBaseName2" time="0.001" />
+      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getBaseName2" time="0.0" />
 
       <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="expandVariablesEnvUnix" time="0.001" />
 
       <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="canonPathHomeMinus" time="0.015" />
 
-      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="constructPathAbsolute" time="0.0" />
+      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="constructPathAbsolute" time="0.001" />
 
       <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="canonPathHomeStart" time="0.001" />
 
       <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="expandVariablesEnvUnix2" time="0.005" />
 
-      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getLongestPrefix" time="0.001" />
+      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getLongestPrefix" time="0.0" />
 
       <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="isURLFileUrl" time="0.0" />
 
       <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="canonPathHomeStart2" time="0.001" />
 
-      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getFileExtensionNoExtension" time="0.0" />
+      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getFileExtensionNoExtension" time="0.001" />
 
-      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getFirstSeparatorIndexRelative" time="0.001" />
+      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getFirstSeparatorIndexRelative" time="0.0" />
 
-      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="expandVariablesTildeWindows" time="0.004" />
+      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="expandVariablesTildeWindows" time="0.002" />
 
       <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getFileExtension2" time="0.0" />
 
       <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="escapesToChars" time="0.0" />
 
-      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="constructPathWindows" time="0.001" />
+      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="constructPathWindows" time="0.0" />
 
       <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="classToFile" time="0.001" />
 
@@ -538,9 +538,9 @@
 
       <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="isAbsolutePathWindows4" time="0.0" />
 
-      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="isAbsolutePathWindows5" time="0.001" />
+      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="isAbsolutePathWindows5" time="0.0" />
 
-      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="isAbsolutePathWindows6" time="0.001" />
+      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="isAbsolutePathWindows6" time="0.0" />
 
       <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="isAbsolutePathWindows7" time="0.0" />
 
@@ -568,17 +568,17 @@
 
       <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="expandVariablesEnvUnixNoMatch" time="0.001" />
 
-      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="constructPathWindows2" time="0.0" />
+      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="constructPathWindows2" time="0.001" />
 
-      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="constructPathWindows3" time="0.005" />
+      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="constructPathWindows3" time="0.002" />
 
-      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getNthBackupFileNoPrefix1" time="0.023" />
+      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getNthBackupFileNoPrefix1" time="0.018" />
 
       <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="constructPath3Args" time="0.001" />
 
-      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="isAbsolutePathUrl" time="0.001" />
+      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="isAbsolutePathUrl" time="0.0" />
 
-      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getLastSeparatorIndexRelative" time="0.001" />
+      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getLastSeparatorIndexRelative" time="0.0" />
 
       <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="isURLEtcPassword" time="0.0" />
 
@@ -586,39 +586,39 @@
 
       <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="isURL" time="0.001" />
 
-      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="buildToVersion" time="0.011" />
+      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="buildToVersion" time="0.005" />
 
-      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="isToolsJarAvailable" time="0.015" />
+      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="isToolsJarAvailable" time="0.01" />
 
-      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="constructPathDotDot" time="0.001" />
+      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="constructPathDotDot" time="0.0" />
 
-      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="canonPathFile" time="0.016" />
+      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="canonPathFile" time="0.0" />
 
       <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="canonPathHome" time="0.0" />
 
       <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getBaseName" time="0.0" />
 
-      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getNthBackupFileNoPrefixButSuffix" time="0.0" />
+      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getNthBackupFileNoPrefixButSuffix" time="0.001" />
 
-      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getNthBackupFileNoPrefix1ButSuffix" time="0.001" />
+      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getNthBackupFileNoPrefix1ButSuffix" time="0.0" />
 
-      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="resolveSymlinksWindowsUrl" time="0.001" />
+      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="resolveSymlinksWindowsUrl" time="0.0" />
 
       <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getFirstSeparatorWindows1" time="0.0" />
 
       <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getFirstSeparatorWindows2" time="0.0" />
 
-      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getFirstSeparatorWindows3" time="0.001" />
+      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getFirstSeparatorWindows3" time="0.0" />
 
-      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getFirstSeparatorWindows4" time="0.001" />
+      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getFirstSeparatorWindows4" time="0.0" />
 
-      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="isAbsolutePathMinus" time="0.001" />
+      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="isAbsolutePathMinus" time="0.0" />
 
-      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="isAbsolutePathTilde" time="0.001" />
+      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="isAbsolutePathTilde" time="0.0" />
 
-      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="isAbsolutePathUnix2" time="0.001" />
+      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="isAbsolutePathUnix2" time="0.0" />
 
-      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="isAbsolutePathWindows" time="0.001" />
+      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="isAbsolutePathWindows" time="0.0" />
 
       <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getCompleteBaseName" time="0.0" />
 
@@ -632,23 +632,23 @@
 
       <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getLongestPrefix2" time="0.001" />
 
-      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getLongestPrefix3" time="0.001" />
+      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getLongestPrefix3" time="0.0" />
 
       <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="concatPath2" time="0.001" />
 
       <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="concatPath3" time="0.0" />
 
-      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="concatPath4" time="0.001" />
+      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="concatPath4" time="0.0" />
 
       <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="expandVariablesEnvWindowsAsUnix" time="0.001" />
 
       <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getFirstSeparatorIndexAbsolute" time="0.001" />
 
-      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getFileName" time="0.001" />
+      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getFileName" time="0.0" />
 
       <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="pathsEqual2" time="0.0" />
 
-      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="pathsEqual3" time="0.001" />
+      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="pathsEqual3" time="0.0" />
 
       <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="pathsEqual4" time="0.0" />
 
@@ -656,13 +656,13 @@
 
       <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="resolveSymlinksWindows2" time="0.0" />
 
-      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="resolveSymlinksWindows3" time="0.001" />
+      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="resolveSymlinksWindows3" time="0.0" />
 
-      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="pathsEqual" time="0.001" />
+      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="pathsEqual" time="0.0" />
 
-      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="isURLWindowsPath" time="0.001" />
+      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="isURLWindowsPath" time="0.0" />
 
-      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="abbreviateUserHomeWindows" time="0.006" />
+      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="abbreviateUserHomeWindows" time="0.002" />
 
       <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="constructPathDot" time="0.0" />
 
@@ -670,13 +670,13 @@
 
       <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getFileExtension" time="0.0" />
 
-      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="canonPathTildeHomeWithFileSeparator" time="0.0" />
+      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="canonPathTildeHomeWithFileSeparator" time="0.001" />
 
-      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getNthBackupFileNoPrefix" time="0.001" />
+      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getNthBackupFileNoPrefix" time="0.0" />
 
       <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="expandVariablesEnvWindowsAsWindows" time="0.001" />
 
-      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getNthBackupFileNoSuffix" time="0.003" />
+      <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getNthBackupFileNoSuffix" time="0.002" />
 
       <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getBackupDirectory" time="0.0" />
 
@@ -685,7 +685,7 @@
       <system-err><![CDATA[]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="WIN-9DGWQQ2" id="1" name="TextUtilitiesTest" package="org.gjt.sp.jedit" skipped="0" tests="2" time="0.009" timestamp="2021-12-14T20:32:29">
+  <testsuite errors="0" failures="0" hostname="WIN-9DGWQQ2" id="1" name="TextUtilitiesTest" package="org.gjt.sp.jedit" skipped="0" tests="2" time="0.005" timestamp="2021-12-14T21:34:29">
       <properties>
           <property name="sun.boot.library.path.ivy.instance" value="C:\Program Files\Java\jdk-11.0.12\bin" />
 
@@ -715,7 +715,7 @@
 
           <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.12\bin" />
 
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner testsfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junittestcases7113720956678683105.properties skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\build\test\raw-reports\IGNORETHIS.xml crashfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junitvmwatcher12764255045877887450.properties propsfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junit15619637979316887926.properties" />
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner testsfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junittestcases2054414123315755040.properties skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\build\test\raw-reports\IGNORETHIS.xml crashfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junitvmwatcher971048489360827946.properties propsfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junit4546912927838299666.properties" />
 
           <property name="os.version.ivy.instance" value="10.0" />
 
@@ -997,7 +997,7 @@
 
           <property name="ivy.resolve.default.type.filter" value="*" />
 
-          <property name="org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer0" value="C:\Users\Lake\AppData\Local\Temp\null1018087825" />
+          <property name="org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer0" value="C:\Users\Lake\AppData\Local\Temp\null1502453015" />
 
           <property name="sun.management.compiler.ivy.instance" value="HotSpot 64-Bit Tiered Compilers" />
 
@@ -1186,7 +1186,7 @@
       <system-err><![CDATA[]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="WIN-9DGWQQ2" id="2" name="ContentManagerTest" package="org.gjt.sp.jedit.buffer" skipped="0" tests="4" time="0.012" timestamp="2021-12-14T20:32:29">
+  <testsuite errors="0" failures="0" hostname="WIN-9DGWQQ2" id="2" name="ContentManagerTest" package="org.gjt.sp.jedit.buffer" skipped="0" tests="4" time="0.011" timestamp="2021-12-14T21:34:29">
       <properties>
           <property name="sun.boot.library.path.ivy.instance" value="C:\Program Files\Java\jdk-11.0.12\bin" />
 
@@ -1216,7 +1216,7 @@
 
           <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.12\bin" />
 
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner testsfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junittestcases7113720956678683105.properties skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\build\test\raw-reports\IGNORETHIS.xml crashfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junitvmwatcher12764255045877887450.properties propsfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junit15619637979316887926.properties" />
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner testsfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junittestcases2054414123315755040.properties skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\build\test\raw-reports\IGNORETHIS.xml crashfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junitvmwatcher971048489360827946.properties propsfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junit4546912927838299666.properties" />
 
           <property name="os.version.ivy.instance" value="10.0" />
 
@@ -1498,7 +1498,7 @@
 
           <property name="ivy.resolve.default.type.filter" value="*" />
 
-          <property name="org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer0" value="C:\Users\Lake\AppData\Local\Temp\null1018087825" />
+          <property name="org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer0" value="C:\Users\Lake\AppData\Local\Temp\null1502453015" />
 
           <property name="sun.management.compiler.ivy.instance" value="HotSpot 64-Bit Tiered Compilers" />
 
@@ -1691,7 +1691,7 @@
       <system-err><![CDATA[]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="WIN-9DGWQQ2" id="3" name="SyntaxUtilitiesTest" package="org.gjt.sp.jedit.syntax" skipped="0" tests="3" time="0.008" timestamp="2021-12-14T20:32:29">
+  <testsuite errors="0" failures="0" hostname="WIN-9DGWQQ2" id="3" name="SyntaxUtilitiesTest" package="org.gjt.sp.jedit.syntax" skipped="0" tests="3" time="0.004" timestamp="2021-12-14T21:34:29">
       <properties>
           <property name="sun.boot.library.path.ivy.instance" value="C:\Program Files\Java\jdk-11.0.12\bin" />
 
@@ -1721,7 +1721,7 @@
 
           <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.12\bin" />
 
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner testsfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junittestcases7113720956678683105.properties skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\build\test\raw-reports\IGNORETHIS.xml crashfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junitvmwatcher12764255045877887450.properties propsfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junit15619637979316887926.properties" />
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner testsfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junittestcases2054414123315755040.properties skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\build\test\raw-reports\IGNORETHIS.xml crashfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junitvmwatcher971048489360827946.properties propsfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junit4546912927838299666.properties" />
 
           <property name="os.version.ivy.instance" value="10.0" />
 
@@ -2003,7 +2003,7 @@
 
           <property name="ivy.resolve.default.type.filter" value="*" />
 
-          <property name="org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer0" value="C:\Users\Lake\AppData\Local\Temp\null1018087825" />
+          <property name="org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer0" value="C:\Users\Lake\AppData\Local\Temp\null1502453015" />
 
           <property name="sun.management.compiler.ivy.instance" value="HotSpot 64-Bit Tiered Compilers" />
 
@@ -2194,7 +2194,7 @@
       <system-err><![CDATA[]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="WIN-9DGWQQ2" id="4" name="FirstLineTest" package="org.gjt.sp.jedit.textarea" skipped="0" tests="3" time="0.535" timestamp="2021-12-14T20:32:29">
+  <testsuite errors="0" failures="0" hostname="WIN-9DGWQQ2" id="4" name="FirstLineTest" package="org.gjt.sp.jedit.textarea" skipped="0" tests="3" time="0.536" timestamp="2021-12-14T21:34:29">
       <properties>
           <property name="sun.boot.library.path.ivy.instance" value="C:\Program Files\Java\jdk-11.0.12\bin" />
 
@@ -2224,7 +2224,7 @@
 
           <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.12\bin" />
 
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner testsfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junittestcases7113720956678683105.properties skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\build\test\raw-reports\IGNORETHIS.xml crashfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junitvmwatcher12764255045877887450.properties propsfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junit15619637979316887926.properties" />
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner testsfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junittestcases2054414123315755040.properties skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\build\test\raw-reports\IGNORETHIS.xml crashfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junitvmwatcher971048489360827946.properties propsfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junit4546912927838299666.properties" />
 
           <property name="os.version.ivy.instance" value="10.0" />
 
@@ -2506,7 +2506,7 @@
 
           <property name="ivy.resolve.default.type.filter" value="*" />
 
-          <property name="org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer0" value="C:\Users\Lake\AppData\Local\Temp\null1018087825" />
+          <property name="org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer0" value="C:\Users\Lake\AppData\Local\Temp\null1502453015" />
 
           <property name="sun.management.compiler.ivy.instance" value="HotSpot 64-Bit Tiered Compilers" />
 
@@ -2686,18 +2686,18 @@
 
       </properties>
 
-      <testcase classname="org.gjt.sp.jedit.textarea.FirstLineTest" name="preContentInsertedBefore" time="0.529" />
+      <testcase classname="org.gjt.sp.jedit.textarea.FirstLineTest" name="preContentInsertedBefore" time="0.53" />
 
       <testcase classname="org.gjt.sp.jedit.textarea.FirstLineTest" name="preContentInsertedAfter" time="0.0" />
 
-      <testcase classname="org.gjt.sp.jedit.textarea.FirstLineTest" name="setSkew" time="0.001" />
+      <testcase classname="org.gjt.sp.jedit.textarea.FirstLineTest" name="setSkew" time="0.0" />
 
       <system-out><![CDATA[]]></system-out>
 
       <system-err><![CDATA[]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="WIN-9DGWQQ2" id="5" name="RangeMapTest" package="org.gjt.sp.jedit.textarea" skipped="0" tests="8" time="0.018" timestamp="2021-12-14T20:32:30">
+  <testsuite errors="0" failures="0" hostname="WIN-9DGWQQ2" id="5" name="RangeMapTest" package="org.gjt.sp.jedit.textarea" skipped="0" tests="8" time="0.02" timestamp="2021-12-14T21:34:29">
       <properties>
           <property name="sun.boot.library.path.ivy.instance" value="C:\Program Files\Java\jdk-11.0.12\bin" />
 
@@ -2727,7 +2727,7 @@
 
           <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.12\bin" />
 
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner testsfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junittestcases7113720956678683105.properties skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\build\test\raw-reports\IGNORETHIS.xml crashfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junitvmwatcher12764255045877887450.properties propsfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junit15619637979316887926.properties" />
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner testsfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junittestcases2054414123315755040.properties skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\build\test\raw-reports\IGNORETHIS.xml crashfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junitvmwatcher971048489360827946.properties propsfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junit4546912927838299666.properties" />
 
           <property name="os.version.ivy.instance" value="10.0" />
 
@@ -3009,7 +3009,7 @@
 
           <property name="ivy.resolve.default.type.filter" value="*" />
 
-          <property name="org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer0" value="C:\Users\Lake\AppData\Local\Temp\null1018087825" />
+          <property name="org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer0" value="C:\Users\Lake\AppData\Local\Temp\null1502453015" />
 
           <property name="sun.management.compiler.ivy.instance" value="HotSpot 64-Bit Tiered Compilers" />
 
@@ -3189,19 +3189,19 @@
 
       </properties>
 
-      <testcase classname="org.gjt.sp.jedit.textarea.RangeMapTest" name="search" time="0.007" />
+      <testcase classname="org.gjt.sp.jedit.textarea.RangeMapTest" name="search" time="0.01" />
 
-      <testcase classname="org.gjt.sp.jedit.textarea.RangeMapTest" name="copy" time="0.001" />
+      <testcase classname="org.gjt.sp.jedit.textarea.RangeMapTest" name="copy" time="0.002" />
 
       <testcase classname="org.gjt.sp.jedit.textarea.RangeMapTest" name="hide" time="0.0" />
 
-      <testcase classname="org.gjt.sp.jedit.textarea.RangeMapTest" name="last" time="0.001" />
+      <testcase classname="org.gjt.sp.jedit.textarea.RangeMapTest" name="last" time="0.0" />
 
       <testcase classname="org.gjt.sp.jedit.textarea.RangeMapTest" name="show" time="0.001" />
 
       <testcase classname="org.gjt.sp.jedit.textarea.RangeMapTest" name="first" time="0.0" />
 
-      <testcase classname="org.gjt.sp.jedit.textarea.RangeMapTest" name="last2" time="0.0" />
+      <testcase classname="org.gjt.sp.jedit.textarea.RangeMapTest" name="last2" time="0.001" />
 
       <testcase classname="org.gjt.sp.jedit.textarea.RangeMapTest" name="preContentRemoved" time="0.001" />
 
@@ -3210,7 +3210,7 @@
       <system-err><![CDATA[]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="WIN-9DGWQQ2" id="6" name="ScreenLineManagerTest" package="org.gjt.sp.jedit.textarea" skipped="0" tests="30" time="0.248" timestamp="2021-12-14T20:32:30">
+  <testsuite errors="0" failures="0" hostname="WIN-9DGWQQ2" id="6" name="ScreenLineManagerTest" package="org.gjt.sp.jedit.textarea" skipped="0" tests="30" time="0.201" timestamp="2021-12-14T21:34:29">
       <properties>
           <property name="sun.boot.library.path.ivy.instance" value="C:\Program Files\Java\jdk-11.0.12\bin" />
 
@@ -3240,7 +3240,7 @@
 
           <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.12\bin" />
 
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner testsfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junittestcases7113720956678683105.properties skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\build\test\raw-reports\IGNORETHIS.xml crashfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junitvmwatcher12764255045877887450.properties propsfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junit15619637979316887926.properties" />
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner testsfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junittestcases2054414123315755040.properties skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\build\test\raw-reports\IGNORETHIS.xml crashfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junitvmwatcher971048489360827946.properties propsfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junit4546912927838299666.properties" />
 
           <property name="os.version.ivy.instance" value="10.0" />
 
@@ -3522,7 +3522,7 @@
 
           <property name="ivy.resolve.default.type.filter" value="*" />
 
-          <property name="org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer0" value="C:\Users\Lake\AppData\Local\Temp\null1018087825" />
+          <property name="org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer0" value="C:\Users\Lake\AppData\Local\Temp\null1502453015" />
 
           <property name="sun.management.compiler.ivy.instance" value="HotSpot 64-Bit Tiered Compilers" />
 
@@ -3702,47 +3702,47 @@
 
       </properties>
 
-      <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentInserted1AtEndBigArray" time="0.136" />
+      <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentInserted1AtEndBigArray" time="0.121" />
 
-      <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentInserted1lineAtStartSmallArray" time="0.0" />
+      <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentInserted1lineAtStartSmallArray" time="0.008" />
 
-      <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentInserted4lineInMiddleSmallArray" time="0.0" />
+      <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentInserted4lineInMiddleSmallArray" time="0.001" />
 
       <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentInserted0LineInMiddleSmallArray" time="0.001" />
 
-      <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentInserted1InMiddleSmallArray" time="0.002" />
+      <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentInserted1InMiddleSmallArray" time="0.001" />
 
-      <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentRemoved2lineInMiddle" time="0.006" />
+      <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentRemoved2lineInMiddle" time="0.002" />
 
-      <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentInserted0LineAtStartBigArray" time="0.001" />
+      <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentInserted0LineAtStartBigArray" time="0.002" />
 
-      <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="isScreenLineCountValidNegative" time="0.001" />
+      <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="isScreenLineCountValidNegative" time="0.0" />
 
       <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="setScreenLineCount" time="0.001" />
 
-      <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentRemoved1InMiddle" time="0.002" />
+      <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentRemoved1InMiddle" time="0.003" />
 
-      <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentRemoved0LineInMiddle" time="0.001" />
+      <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentRemoved0LineInMiddle" time="0.002" />
 
       <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentInserted0LineInMiddleBigArray" time="0.001" />
 
-      <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentInserted0LineAtEndSmallArray" time="0.0" />
+      <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentInserted0LineAtEndSmallArray" time="0.001" />
 
-      <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="isScreenLineCountValidNull" time="0.0" />
+      <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="isScreenLineCountValidNull" time="0.002" />
 
-      <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="isScreenLineCountValidOverLimit" time="0.001" />
+      <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="isScreenLineCountValidOverLimit" time="0.002" />
 
       <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentInserted1AtEndSmallArray" time="0.001" />
 
-      <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="invalidateScreenLineCounts" time="0.002" />
+      <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="invalidateScreenLineCounts" time="0.001" />
 
       <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentRemoved0LineAtEnd" time="0.002" />
 
       <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentInserted4lineInMiddleBigArray" time="0.002" />
 
-      <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentRemoved1lineAtStart" time="0.002" />
+      <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentRemoved1lineAtStart" time="0.001" />
 
-      <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentInserted4lineAtStartBigArray" time="0.002" />
+      <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentInserted4lineAtStartBigArray" time="0.001" />
 
       <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentRemoved2lineAtStart" time="0.001" />
 
@@ -3750,15 +3750,15 @@
 
       <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentInserted4lineAtStartSmallArray" time="0.001" />
 
-      <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentInserted0LineAtEndBigArray" time="0.002" />
+      <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentInserted0LineAtEndBigArray" time="0.001" />
 
-      <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentInserted4lineAtEndSmallArray" time="0.002" />
+      <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentInserted4lineAtEndSmallArray" time="0.001" />
 
-      <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentInserted4lineAtEndBigArray" time="0.002" />
+      <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentInserted4lineAtEndBigArray" time="0.001" />
 
-      <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentInserted1lineAtStartBigArray" time="0.002" />
+      <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentInserted1lineAtStartBigArray" time="0.001" />
 
-      <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentRemoved0LineAtStart" time="0.034" />
+      <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentRemoved0LineAtStart" time="0.001" />
 
       <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentInserted0LineAtStartSmallArray" time="0.001" />
 
@@ -3767,7 +3767,7 @@
       <system-err><![CDATA[]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="WIN-9DGWQQ2" id="7" name="HtmlUtilitiesTest" package="org.gjt.sp.util" skipped="0" tests="11" time="0.064" timestamp="2021-12-14T20:32:30">
+  <testsuite errors="0" failures="0" hostname="WIN-9DGWQQ2" id="7" name="HtmlUtilitiesTest" package="org.gjt.sp.util" skipped="0" tests="11" time="0.058" timestamp="2021-12-14T21:34:29">
       <properties>
           <property name="sun.boot.library.path.ivy.instance" value="C:\Program Files\Java\jdk-11.0.12\bin" />
 
@@ -3797,7 +3797,7 @@
 
           <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.12\bin" />
 
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner testsfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junittestcases7113720956678683105.properties skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\build\test\raw-reports\IGNORETHIS.xml crashfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junitvmwatcher12764255045877887450.properties propsfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junit15619637979316887926.properties" />
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner testsfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junittestcases2054414123315755040.properties skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\build\test\raw-reports\IGNORETHIS.xml crashfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junitvmwatcher971048489360827946.properties propsfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junit4546912927838299666.properties" />
 
           <property name="os.version.ivy.instance" value="10.0" />
 
@@ -4079,7 +4079,7 @@
 
           <property name="ivy.resolve.default.type.filter" value="*" />
 
-          <property name="org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer0" value="C:\Users\Lake\AppData\Local\Temp\null1018087825" />
+          <property name="org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer0" value="C:\Users\Lake\AppData\Local\Temp\null1502453015" />
 
           <property name="sun.management.compiler.ivy.instance" value="HotSpot 64-Bit Tiered Compilers" />
 
@@ -4259,13 +4259,13 @@
 
       </properties>
 
-      <testcase classname="org.gjt.sp.util.HtmlUtilitiesTest" name="style2htmlBoldItalic2" time="0.053" />
+      <testcase classname="org.gjt.sp.util.HtmlUtilitiesTest" name="style2htmlBoldItalic2" time="0.045" />
 
       <testcase classname="org.gjt.sp.util.HtmlUtilitiesTest" name="parseHighlightStyleItalic" time="0.0" />
 
       <testcase classname="org.gjt.sp.util.HtmlUtilitiesTest" name="highlightString" time="0.001" />
 
-      <testcase classname="org.gjt.sp.util.HtmlUtilitiesTest" name="parseHighlightStyleBoldItalic2" time="0.001" />
+      <testcase classname="org.gjt.sp.util.HtmlUtilitiesTest" name="parseHighlightStyleBoldItalic2" time="0.0" />
 
       <testcase classname="org.gjt.sp.util.HtmlUtilitiesTest" name="style2htmlBoldItalic" time="0.0" />
 
@@ -4275,7 +4275,7 @@
 
       <testcase classname="org.gjt.sp.util.HtmlUtilitiesTest" name="parseHighlightStyleBold" time="0.0" />
 
-      <testcase classname="org.gjt.sp.util.HtmlUtilitiesTest" name="parseHighlightStyleFail" time="0.001" />
+      <testcase classname="org.gjt.sp.util.HtmlUtilitiesTest" name="parseHighlightStyleFail" time="0.0" />
 
       <testcase classname="org.gjt.sp.util.HtmlUtilitiesTest" name="appendString2html" time="0.0" />
 
@@ -4286,7 +4286,7 @@
       <system-err><![CDATA[]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="WIN-9DGWQQ2" id="8" name="IntegerArrayTest" package="org.gjt.sp.util" skipped="0" tests="4" time="0.005" timestamp="2021-12-14T20:32:30">
+  <testsuite errors="0" failures="0" hostname="WIN-9DGWQQ2" id="8" name="IntegerArrayTest" package="org.gjt.sp.util" skipped="0" tests="4" time="0.006" timestamp="2021-12-14T21:34:30">
       <properties>
           <property name="sun.boot.library.path.ivy.instance" value="C:\Program Files\Java\jdk-11.0.12\bin" />
 
@@ -4316,7 +4316,7 @@
 
           <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.12\bin" />
 
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner testsfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junittestcases7113720956678683105.properties skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\build\test\raw-reports\IGNORETHIS.xml crashfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junitvmwatcher12764255045877887450.properties propsfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junit15619637979316887926.properties" />
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner testsfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junittestcases2054414123315755040.properties skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\build\test\raw-reports\IGNORETHIS.xml crashfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junitvmwatcher971048489360827946.properties propsfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junit4546912927838299666.properties" />
 
           <property name="os.version.ivy.instance" value="10.0" />
 
@@ -4598,7 +4598,7 @@
 
           <property name="ivy.resolve.default.type.filter" value="*" />
 
-          <property name="org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer0" value="C:\Users\Lake\AppData\Local\Temp\null1018087825" />
+          <property name="org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer0" value="C:\Users\Lake\AppData\Local\Temp\null1502453015" />
 
           <property name="sun.management.compiler.ivy.instance" value="HotSpot 64-Bit Tiered Compilers" />
 
@@ -4791,7 +4791,7 @@
       <system-err><![CDATA[]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="WIN-9DGWQQ2" id="9" name="SegmentBufferTest" package="org.gjt.sp.util" skipped="0" tests="2" time="0.004" timestamp="2021-12-14T20:32:30">
+  <testsuite errors="0" failures="0" hostname="WIN-9DGWQQ2" id="9" name="SegmentBufferTest" package="org.gjt.sp.util" skipped="0" tests="2" time="0.004" timestamp="2021-12-14T21:34:30">
       <properties>
           <property name="sun.boot.library.path.ivy.instance" value="C:\Program Files\Java\jdk-11.0.12\bin" />
 
@@ -4821,7 +4821,7 @@
 
           <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.12\bin" />
 
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner testsfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junittestcases7113720956678683105.properties skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\build\test\raw-reports\IGNORETHIS.xml crashfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junitvmwatcher12764255045877887450.properties propsfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junit15619637979316887926.properties" />
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner testsfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junittestcases2054414123315755040.properties skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\build\test\raw-reports\IGNORETHIS.xml crashfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junitvmwatcher971048489360827946.properties propsfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junit4546912927838299666.properties" />
 
           <property name="os.version.ivy.instance" value="10.0" />
 
@@ -5103,7 +5103,7 @@
 
           <property name="ivy.resolve.default.type.filter" value="*" />
 
-          <property name="org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer0" value="C:\Users\Lake\AppData\Local\Temp\null1018087825" />
+          <property name="org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer0" value="C:\Users\Lake\AppData\Local\Temp\null1502453015" />
 
           <property name="sun.management.compiler.ivy.instance" value="HotSpot 64-Bit Tiered Compilers" />
 
@@ -5285,14 +5285,14 @@
 
       <testcase classname="org.gjt.sp.util.SegmentBufferTest" name="testAppendChar" time="0.0" />
 
-      <testcase classname="org.gjt.sp.util.SegmentBufferTest" name="testAppendCharArray" time="0.001" />
+      <testcase classname="org.gjt.sp.util.SegmentBufferTest" name="testAppendCharArray" time="0.0" />
 
       <system-out><![CDATA[]]></system-out>
 
       <system-err><![CDATA[]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="WIN-9DGWQQ2" id="10" name="SegmentCharSequenceTest" package="org.gjt.sp.util" skipped="0" tests="2" time="0.004" timestamp="2021-12-14T20:32:30">
+  <testsuite errors="0" failures="0" hostname="WIN-9DGWQQ2" id="10" name="SegmentCharSequenceTest" package="org.gjt.sp.util" skipped="0" tests="2" time="0.004" timestamp="2021-12-14T21:34:30">
       <properties>
           <property name="sun.boot.library.path.ivy.instance" value="C:\Program Files\Java\jdk-11.0.12\bin" />
 
@@ -5322,7 +5322,7 @@
 
           <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.12\bin" />
 
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner testsfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junittestcases7113720956678683105.properties skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\build\test\raw-reports\IGNORETHIS.xml crashfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junitvmwatcher12764255045877887450.properties propsfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junit15619637979316887926.properties" />
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner testsfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junittestcases2054414123315755040.properties skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\build\test\raw-reports\IGNORETHIS.xml crashfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junitvmwatcher971048489360827946.properties propsfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junit4546912927838299666.properties" />
 
           <property name="os.version.ivy.instance" value="10.0" />
 
@@ -5604,7 +5604,7 @@
 
           <property name="ivy.resolve.default.type.filter" value="*" />
 
-          <property name="org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer0" value="C:\Users\Lake\AppData\Local\Temp\null1018087825" />
+          <property name="org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer0" value="C:\Users\Lake\AppData\Local\Temp\null1502453015" />
 
           <property name="sun.management.compiler.ivy.instance" value="HotSpot 64-Bit Tiered Compilers" />
 
@@ -5786,14 +5786,14 @@
 
       <testcase classname="org.gjt.sp.util.SegmentCharSequenceTest" name="subSequence" time="0.0" />
 
-      <testcase classname="org.gjt.sp.util.SegmentCharSequenceTest" name="charAt" time="0.001" />
+      <testcase classname="org.gjt.sp.util.SegmentCharSequenceTest" name="charAt" time="0.0" />
 
       <system-out><![CDATA[]]></system-out>
 
       <system-err><![CDATA[]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="WIN-9DGWQQ2" id="11" name="StandardUtilitiesTest" package="org.gjt.sp.util" skipped="0" tests="49" time="0.102" timestamp="2021-12-14T20:32:30">
+  <testsuite errors="0" failures="0" hostname="WIN-9DGWQQ2" id="11" name="StandardUtilitiesTest" package="org.gjt.sp.util" skipped="0" tests="49" time="0.085" timestamp="2021-12-14T21:34:30">
       <properties>
           <property name="sun.boot.library.path.ivy.instance" value="C:\Program Files\Java\jdk-11.0.12\bin" />
 
@@ -5823,7 +5823,7 @@
 
           <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.12\bin" />
 
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner testsfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junittestcases7113720956678683105.properties skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\build\test\raw-reports\IGNORETHIS.xml crashfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junitvmwatcher12764255045877887450.properties propsfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junit15619637979316887926.properties" />
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner testsfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junittestcases2054414123315755040.properties skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\build\test\raw-reports\IGNORETHIS.xml crashfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junitvmwatcher971048489360827946.properties propsfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junit4546912927838299666.properties" />
 
           <property name="os.version.ivy.instance" value="10.0" />
 
@@ -6105,7 +6105,7 @@
 
           <property name="ivy.resolve.default.type.filter" value="*" />
 
-          <property name="org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer0" value="C:\Users\Lake\AppData\Local\Temp\null1018087825" />
+          <property name="org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer0" value="C:\Users\Lake\AppData\Local\Temp\null1502453015" />
 
           <property name="sun.management.compiler.ivy.instance" value="HotSpot 64-Bit Tiered Compilers" />
 
@@ -6285,7 +6285,7 @@
 
       </properties>
 
-      <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="regionMatches2" time="0.002" />
+      <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="regionMatches2" time="0.001" />
 
       <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="getLeadingWhiteSpaceWidth1" time="0.0" />
 
@@ -6295,13 +6295,13 @@
 
       <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="startsWith" time="0.0" />
 
-      <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="compareStrings" time="0.0" />
+      <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="compareStrings" time="0.001" />
 
       <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="compareStrings2" time="0.0" />
 
       <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="compareStrings3" time="0.0" />
 
-      <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="compareStrings4" time="0.0" />
+      <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="compareStrings4" time="0.001" />
 
       <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="compareStrings5" time="0.0" />
 
@@ -6323,7 +6323,7 @@
 
       <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="getVirtualWidthEmptySegment" time="0.0" />
 
-      <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="globToRE" time="0.0" />
+      <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="globToRE" time="0.001" />
 
       <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="charsToEscapes" time="0.0" />
 
@@ -6331,7 +6331,7 @@
 
       <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="getBoolean3" time="0.0" />
 
-      <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="getBoolean4" time="0.0" />
+      <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="getBoolean4" time="0.001" />
 
       <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="getBoolean5" time="0.0" />
 
@@ -6345,11 +6345,11 @@
 
       <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="createWhiteSpace0" time="0.001" />
 
-      <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="createWhiteSpace1" time="0.0" />
+      <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="createWhiteSpace1" time="0.001" />
 
-      <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="createWhiteSpace4" time="0.049" />
+      <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="createWhiteSpace4" time="0.001" />
 
-      <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="getOffsetOfVirtualColumn" time="0.0" />
+      <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="getOffsetOfVirtualColumn" time="0.001" />
 
       <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="charsToEscapes2" time="0.0" />
 
@@ -6359,9 +6359,9 @@
 
       <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="globToRE4" time="0.0" />
 
-      <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="globToRE5" time="0.0" />
+      <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="globToRE5" time="0.001" />
 
-      <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="globToRE6" time="0.001" />
+      <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="globToRE6" time="0.0" />
 
       <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="globToRE7" time="0.0" />
 
@@ -6379,16 +6379,16 @@
 
       <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="formatFileSize3" time="0.001" />
 
-      <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="formatFileSize4" time="0.003" />
+      <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="formatFileSize4" time="0.001" />
 
-      <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="formatFileSize5" time="0.0" />
+      <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="formatFileSize5" time="0.002" />
 
       <system-out><![CDATA[]]></system-out>
 
       <system-err><![CDATA[]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="WIN-9DGWQQ2" id="12" name="StringListTest" package="org.gjt.sp.util" skipped="0" tests="9" time="0.009" timestamp="2021-12-14T20:32:30">
+  <testsuite errors="0" failures="0" hostname="WIN-9DGWQQ2" id="12" name="StringListTest" package="org.gjt.sp.util" skipped="0" tests="9" time="0.011" timestamp="2021-12-14T21:34:30">
       <properties>
           <property name="sun.boot.library.path.ivy.instance" value="C:\Program Files\Java\jdk-11.0.12\bin" />
 
@@ -6418,7 +6418,7 @@
 
           <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.12\bin" />
 
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner testsfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junittestcases7113720956678683105.properties skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\build\test\raw-reports\IGNORETHIS.xml crashfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junitvmwatcher12764255045877887450.properties propsfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junit15619637979316887926.properties" />
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner testsfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junittestcases2054414123315755040.properties skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\build\test\raw-reports\IGNORETHIS.xml crashfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junitvmwatcher971048489360827946.properties propsfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junit4546912927838299666.properties" />
 
           <property name="os.version.ivy.instance" value="10.0" />
 
@@ -6700,7 +6700,7 @@
 
           <property name="ivy.resolve.default.type.filter" value="*" />
 
-          <property name="org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer0" value="C:\Users\Lake\AppData\Local\Temp\null1018087825" />
+          <property name="org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer0" value="C:\Users\Lake\AppData\Local\Temp\null1502453015" />
 
           <property name="sun.management.compiler.ivy.instance" value="HotSpot 64-Bit Tiered Compilers" />
 
@@ -6892,18 +6892,18 @@
 
       <testcase classname="org.gjt.sp.util.StringListTest" name="join2" time="0.0" />
 
-      <testcase classname="org.gjt.sp.util.StringListTest" name="join3" time="0.0" />
+      <testcase classname="org.gjt.sp.util.StringListTest" name="join3" time="0.001" />
 
       <testcase classname="org.gjt.sp.util.StringListTest" name="join4" time="0.0" />
 
-      <testcase classname="org.gjt.sp.util.StringListTest" name="split" time="0.0" />
+      <testcase classname="org.gjt.sp.util.StringListTest" name="split" time="0.001" />
 
       <system-out><![CDATA[]]></system-out>
 
       <system-err><![CDATA[]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="WIN-9DGWQQ2" id="13" name="SyntaxUtilitiesTest" package="org.gjt.sp.util" skipped="0" tests="24" time="0.073" timestamp="2021-12-14T20:32:30">
+  <testsuite errors="0" failures="0" hostname="WIN-9DGWQQ2" id="13" name="SyntaxUtilitiesTest" package="org.gjt.sp.util" skipped="0" tests="24" time="0.061" timestamp="2021-12-14T21:34:30">
       <properties>
           <property name="sun.boot.library.path.ivy.instance" value="C:\Program Files\Java\jdk-11.0.12\bin" />
 
@@ -6933,7 +6933,7 @@
 
           <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.12\bin" />
 
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner testsfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junittestcases7113720956678683105.properties skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\build\test\raw-reports\IGNORETHIS.xml crashfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junitvmwatcher12764255045877887450.properties propsfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junit15619637979316887926.properties" />
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner testsfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junittestcases2054414123315755040.properties skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\build\test\raw-reports\IGNORETHIS.xml crashfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junitvmwatcher971048489360827946.properties propsfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junit4546912927838299666.properties" />
 
           <property name="os.version.ivy.instance" value="10.0" />
 
@@ -7215,7 +7215,7 @@
 
           <property name="ivy.resolve.default.type.filter" value="*" />
 
-          <property name="org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer0" value="C:\Users\Lake\AppData\Local\Temp\null1018087825" />
+          <property name="org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer0" value="C:\Users\Lake\AppData\Local\Temp\null1502453015" />
 
           <property name="sun.management.compiler.ivy.instance" value="HotSpot 64-Bit Tiered Compilers" />
 
@@ -7395,11 +7395,11 @@
 
       </properties>
 
-      <testcase classname="org.gjt.sp.util.SyntaxUtilitiesTest" name="parseColorRed" time="0.001" />
+      <testcase classname="org.gjt.sp.util.SyntaxUtilitiesTest" name="parseColorRed" time="0.002" />
 
-      <testcase classname="org.gjt.sp.util.SyntaxUtilitiesTest" name="parseStyleError2" time="0.001" />
+      <testcase classname="org.gjt.sp.util.SyntaxUtilitiesTest" name="parseStyleError2" time="0.0" />
 
-      <testcase classname="org.gjt.sp.util.SyntaxUtilitiesTest" name="parseStyle" time="0.0" />
+      <testcase classname="org.gjt.sp.util.SyntaxUtilitiesTest" name="parseStyle" time="0.038" />
 
       <testcase classname="org.gjt.sp.util.SyntaxUtilitiesTest" name="parseStyleError" time="0.0" />
 
@@ -7411,33 +7411,33 @@
 
       <testcase classname="org.gjt.sp.util.SyntaxUtilitiesTest" name="parseColorNull" time="0.0" />
 
-      <testcase classname="org.gjt.sp.util.SyntaxUtilitiesTest" name="parseColorPink" time="0.0" />
+      <testcase classname="org.gjt.sp.util.SyntaxUtilitiesTest" name="parseColorPink" time="0.001" />
 
-      <testcase classname="org.gjt.sp.util.SyntaxUtilitiesTest" name="parseColorWhat" time="0.001" />
+      <testcase classname="org.gjt.sp.util.SyntaxUtilitiesTest" name="parseColorWhat" time="0.0" />
 
-      <testcase classname="org.gjt.sp.util.SyntaxUtilitiesTest" name="parseColorRedAlpha" time="0.049" />
+      <testcase classname="org.gjt.sp.util.SyntaxUtilitiesTest" name="parseColorRedAlpha" time="0.0" />
 
       <testcase classname="org.gjt.sp.util.SyntaxUtilitiesTest" name="parseColorRedNoAlpha" time="0.001" />
 
-      <testcase classname="org.gjt.sp.util.SyntaxUtilitiesTest" name="loadStyles" time="0.002" />
+      <testcase classname="org.gjt.sp.util.SyntaxUtilitiesTest" name="loadStyles" time="0.001" />
 
       <testcase classname="org.gjt.sp.util.SyntaxUtilitiesTest" name="parseColorBlack" time="0.0" />
 
-      <testcase classname="org.gjt.sp.util.SyntaxUtilitiesTest" name="parseColorError" time="0.0" />
+      <testcase classname="org.gjt.sp.util.SyntaxUtilitiesTest" name="parseColorError" time="0.001" />
 
       <testcase classname="org.gjt.sp.util.SyntaxUtilitiesTest" name="parseColorGreen" time="0.001" />
 
-      <testcase classname="org.gjt.sp.util.SyntaxUtilitiesTest" name="parseColorWhite" time="0.0" />
+      <testcase classname="org.gjt.sp.util.SyntaxUtilitiesTest" name="parseColorWhite" time="0.001" />
 
       <testcase classname="org.gjt.sp.util.SyntaxUtilitiesTest" name="parseColorOrange" time="0.0" />
 
-      <testcase classname="org.gjt.sp.util.SyntaxUtilitiesTest" name="parseColorMagenta" time="0.0" />
+      <testcase classname="org.gjt.sp.util.SyntaxUtilitiesTest" name="parseColorMagenta" time="0.001" />
 
       <testcase classname="org.gjt.sp.util.SyntaxUtilitiesTest" name="parseColorYellow" time="0.0" />
 
       <testcase classname="org.gjt.sp.util.SyntaxUtilitiesTest" name="getColorHexStringRed" time="0.0" />
 
-      <testcase classname="org.gjt.sp.util.SyntaxUtilitiesTest" name="getColorHexString" time="0.001" />
+      <testcase classname="org.gjt.sp.util.SyntaxUtilitiesTest" name="getColorHexString" time="0.0" />
 
       <testcase classname="org.gjt.sp.util.SyntaxUtilitiesTest" name="parseColorDarkGray" time="0.0" />
 
@@ -7448,7 +7448,7 @@
       <system-err><![CDATA[]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="WIN-9DGWQQ2" id="14" name="Native2ASCIIEncodingTest" package="org.jedit.io" skipped="0" tests="108" time="0.516" timestamp="2021-12-14T20:32:31">
+  <testsuite errors="0" failures="0" hostname="WIN-9DGWQQ2" id="14" name="Native2ASCIIEncodingTest" package="org.jedit.io" skipped="0" tests="108" time="0.52" timestamp="2021-12-14T21:34:30">
       <properties>
           <property name="sun.boot.library.path.ivy.instance" value="C:\Program Files\Java\jdk-11.0.12\bin" />
 
@@ -7478,7 +7478,7 @@
 
           <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.12\bin" />
 
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner testsfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junittestcases7113720956678683105.properties skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\build\test\raw-reports\IGNORETHIS.xml crashfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junitvmwatcher12764255045877887450.properties propsfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junit15619637979316887926.properties" />
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner testsfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junittestcases2054414123315755040.properties skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\build\test\raw-reports\IGNORETHIS.xml crashfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junitvmwatcher971048489360827946.properties propsfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junit4546912927838299666.properties" />
 
           <property name="os.version.ivy.instance" value="10.0" />
 
@@ -7760,7 +7760,7 @@
 
           <property name="ivy.resolve.default.type.filter" value="*" />
 
-          <property name="org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer0" value="C:\Users\Lake\AppData\Local\Temp\null1018087825" />
+          <property name="org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer0" value="C:\Users\Lake\AppData\Local\Temp\null1502453015" />
 
           <property name="sun.management.compiler.ivy.instance" value="HotSpot 64-Bit Tiered Compilers" />
 
@@ -7940,13 +7940,13 @@
 
       </properties>
 
-      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_CharBuffer_ShouldIgnoreIncompleteEscapeSequenceThatFollowsOneBackslash" time="0.006" />
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_CharBuffer_ShouldIgnoreIncompleteEscapeSequenceThatFollowsOneBackslash" time="0.002" />
 
       <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_ShouldReadBackslashWithoutFollowingUAsBackslash" time="0.0" />
 
-      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_ShouldCorrectlyHandleEOF" time="0.001" />
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_ShouldCorrectlyHandleEOF" time="0.0" />
 
-      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_shouldReadOnAfterCollapsingEscapeSequences" time="0.001" />
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_shouldReadOnAfterCollapsingEscapeSequences" time="0.0" />
 
       <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_CharBuffer_ShouldReadBackslashWithoutFollowingUAsBackslash" time="0.0" />
 
@@ -7954,7 +7954,7 @@
 
       <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_CharBuffer_ShouldConvertEscapeSequence" time="0.0" />
 
-      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="readShouldThrowExceptionOnIncompleteEscapeSequence" time="0.001" />
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="readShouldThrowExceptionOnIncompleteEscapeSequence" time="0.0" />
 
       <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="permissiveReadShouldAcceptMalformedInput" time="0.0" />
 
@@ -7966,31 +7966,31 @@
 
       <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="readShouldCorrectlyHandleEOFAfterBackslash" time="0.001" />
 
-      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_ShouldConvertEscapeSequenceWithThrottledInputStream" time="0.002" />
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_ShouldConvertEscapeSequenceWithThrottledInputStream" time="0.001" />
 
       <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="permissiveRead_charArray_int_int_ShouldAcceptMalformedInputWithThrottledReader" time="0.0" />
 
-      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="readShouldCorrectlyHandleEOF" time="0.002" />
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="readShouldCorrectlyHandleEOF" time="0.0" />
 
       <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="permissiveReadShouldAcceptMalformedInputWithThrottledReader" time="0.0" />
 
       <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="readerShouldBeAbleToDecodeWhatWriterHasEncoded" time="0.001" />
 
-      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_CharBuffer_ShouldThrowExceptionOnMalformedInput" time="0.0" />
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_CharBuffer_ShouldThrowExceptionOnMalformedInput" time="0.001" />
 
-      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_CharBuffer_ShouldCorrectlyHandleEOFAfterBackslash" time="0.001" />
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_CharBuffer_ShouldCorrectlyHandleEOFAfterBackslash" time="0.0" />
 
       <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="write_int_ShouldEncodeASCIICharactersCorrectly" time="0.0" />
 
       <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_int_int_ShouldIgnoreMalformedEscapeSequenceThatFollowsOneBackslash" time="0.001" />
 
-      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_CharBuffer_shouldReadOnAfterCollapsingEscapeSequences" time="0.001" />
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_CharBuffer_shouldReadOnAfterCollapsingEscapeSequences" time="0.0" />
 
-      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_int_int_ShouldCorrectlyHandleLessThan5NonEscapeCharactersAfterBackslash" time="0.001" />
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_int_int_ShouldCorrectlyHandleLessThan5NonEscapeCharactersAfterBackslash" time="0.0" />
 
       <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_int_int_ShouldThrowExceptionOnMissingInputAfterU" time="0.0" />
 
-      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="append_CharSequence_ShouldEncodeNonASCIICharactersCorrectly" time="0.001" />
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="append_CharSequence_ShouldEncodeNonASCIICharactersCorrectly" time="0.0" />
 
       <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_ShouldThrowExceptionOnMissingInputAfterU" time="0.0" />
 
@@ -7998,35 +7998,35 @@
 
       <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="differentReadMethodsShouldBeUsableOnTheSameStream" time="0.0" />
 
-      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="readerShouldReadSingleCharactersIfWriterAddedAnEscapingBackslash" time="0.0" />
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="readerShouldReadSingleCharactersIfWriterAddedAnEscapingBackslash" time="0.082" />
 
       <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="readShouldThrowExceptionOnMissingInputAfterU" time="0.0" />
 
       <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="permissiveRead_CharBuffer_ShouldAcceptMalformedInputWithThrottledReader" time="0.0" />
 
-      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="write_String_ShouldEncodeNonASCIICharactersCorrectly" time="0.0" />
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="write_String_ShouldEncodeNonASCIICharactersCorrectly" time="0.001" />
 
       <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="readShouldThrowExceptionOnMalformedInput" time="0.0" />
 
       <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="readShouldConvertEscapeSequence" time="0.0" />
 
-      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_ShouldThrowExceptionOnMalformedInput" time="0.001" />
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_ShouldThrowExceptionOnMalformedInput" time="0.0" />
 
       <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_ShouldCorrectlyHandleLessThan5NonEscapeCharactersAfterBackslash" time="0.0" />
 
       <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_int_int_ShouldCorrectlyHandleEOF" time="0.0" />
 
-      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_int_int_ShouldThrowExceptionOnMalformedInputWithThrottledReader" time="0.0" />
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_int_int_ShouldThrowExceptionOnMalformedInputWithThrottledReader" time="0.001" />
 
-      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="skipShouldNotDoAnythingIfToSkipIsZero" time="0.001" />
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="skipShouldNotDoAnythingIfToSkipIsZero" time="0.0" />
 
       <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_CharBuffer_ShouldThrowExceptionOnMalformedInputWithThrottledReader" time="0.0" />
 
-      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_int_int_ShouldConvertEscapeSequenceWithThrottledInputStream" time="0.0" />
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_int_int_ShouldConvertEscapeSequenceWithThrottledInputStream" time="0.001" />
 
       <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="readShouldCorrectlyHandleLessThan5NonEscapeCharactersAfterBackslash" time="0.0" />
 
-      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="readShouldThrowExceptionOnMalformedInputWithThrottledReader" time="0.001" />
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="readShouldThrowExceptionOnMalformedInputWithThrottledReader" time="0.0" />
 
       <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="permissiveRead_charArray_ShouldAcceptMalformedInput" time="0.0" />
 
@@ -8042,17 +8042,17 @@
 
       <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="write_charArray_int_int_ShouldEncodeASCIICharactersCorrectly" time="0.0" />
 
-      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="append_CharSequence_int_int_ShouldEncodeNonASCIICharactersCorrectly" time="0.001" />
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="append_CharSequence_int_int_ShouldEncodeNonASCIICharactersCorrectly" time="0.0" />
 
-      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_int_int_ShouldIgnoreIncompleteEscapeSequenceThatFollowsOneBackslash" time="0.001" />
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_int_int_ShouldIgnoreIncompleteEscapeSequenceThatFollowsOneBackslash" time="0.0" />
 
       <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="append_CharSequence_int_int_ShouldEncodeNullCorrectly" time="0.0" />
 
       <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_ShouldConvertEscapeSequence" time="0.0" />
 
-      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_int_int_ShouldThrowExceptionOnIncompleteEscapeSequence" time="0.001" />
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_int_int_ShouldThrowExceptionOnIncompleteEscapeSequence" time="0.0" />
 
-      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_ShouldThrowExceptionOnMalformedInputWithThrottledReader" time="0.001" />
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_ShouldThrowExceptionOnMalformedInputWithThrottledReader" time="0.0" />
 
       <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="write_charArray_ShouldEncodeNonASCIICharactersCorrectly" time="0.0" />
 
@@ -8062,19 +8062,19 @@
 
       <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="permissiveRead_CharBuffer_ShouldAcceptIncompleteEscapeSequence" time="0.0" />
 
-      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="append_CharSequence_ShouldEncodeNullCorrectly" time="0.0" />
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="append_CharSequence_ShouldEncodeNullCorrectly" time="0.001" />
 
-      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="multipleSkipCallsShouldWork" time="0.0" />
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="multipleSkipCallsShouldWork" time="0.001" />
 
-      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="write_String_int_int_ShouldEncodeNonASCIICharactersCorrectly" time="0.0" />
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="write_String_int_int_ShouldEncodeNonASCIICharactersCorrectly" time="0.001" />
 
       <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="append_CharSequence_ShouldEncodeASCIICharactersCorrectly" time="0.0" />
 
-      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_int_int_ShouldThrowExceptionOnMalformedInput" time="0.001" />
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_int_int_ShouldThrowExceptionOnMalformedInput" time="0.0" />
 
-      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="permissiveRead_charArray_ShouldAcceptIncompleteEscapeSequence" time="0.0" />
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="permissiveRead_charArray_ShouldAcceptIncompleteEscapeSequence" time="0.001" />
 
-      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_CharBuffer_ShouldIgnoreEscapeSequenceThatFollowsThreeBackslashes" time="0.0" />
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_CharBuffer_ShouldIgnoreEscapeSequenceThatFollowsThreeBackslashes" time="0.001" />
 
       <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="permissiveRead_charArray_ShouldAcceptMissingInputAfterU" time="0.0" />
 
@@ -8082,7 +8082,7 @@
 
       <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="permissiveRead_CharBuffer_ShouldAcceptMalformedInput" time="0.0" />
 
-      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="permissiveReadShouldAcceptIncompleteEscapeSequence" time="0.001" />
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="permissiveReadShouldAcceptIncompleteEscapeSequence" time="0.0" />
 
       <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="write_charArray_ShouldEncodeASCIICharactersCorrectly" time="0.0" />
 
@@ -8092,35 +8092,35 @@
 
       <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="permissiveRead_charArray_int_int_ShouldAcceptMissingInputAfterU" time="0.0" />
 
-      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="readShouldReadBackslashWithoutFollowingUAsBackslash" time="0.001" />
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="readShouldReadBackslashWithoutFollowingUAsBackslash" time="0.0" />
 
-      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_int_int_ShouldIgnoreEscapeSequenceThatFollowsThreeBackslashes" time="0.0" />
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_int_int_ShouldIgnoreEscapeSequenceThatFollowsThreeBackslashes" time="0.001" />
 
-      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_ShouldThrowExceptionOnIncompleteEscapeSequence" time="0.0" />
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_ShouldThrowExceptionOnIncompleteEscapeSequence" time="0.001" />
 
       <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="permissiveRead_charArray_ShouldAcceptMalformedInputWithThrottledReader" time="0.0" />
 
       <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_CharBuffer_ShouldCorrectlyHandleLessThan5NonEscapeCharactersAfterBackslash" time="0.0" />
 
-      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_ShouldIgnoreEscapeSequenceThatFollowsThreeBackslashes" time="0.0" />
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_ShouldIgnoreEscapeSequenceThatFollowsThreeBackslashes" time="0.001" />
 
       <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_int_int_ShouldConvertEscapeSequenceThatFollowsTwoBackslashes" time="0.0" />
 
-      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_ShouldCorrectlyHandleEOFAfterBackslash" time="0.001" />
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_ShouldCorrectlyHandleEOFAfterBackslash" time="0.0" />
 
-      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="readShouldIgnoreIncompleteEscapeSequenceThatFollowsOneBackslash" time="0.001" />
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="readShouldIgnoreIncompleteEscapeSequenceThatFollowsOneBackslash" time="0.0" />
 
-      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="append_char_ShouldEncodeASCIICharactersCorrectly" time="0.0" />
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="append_char_ShouldEncodeASCIICharactersCorrectly" time="0.001" />
 
-      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_ShouldIgnoreIncompleteEscapeSequenceThatFollowsOneBackslash" time="0.0" />
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_ShouldIgnoreIncompleteEscapeSequenceThatFollowsOneBackslash" time="0.001" />
 
-      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="readShouldIgnoreEscapeSequenceThatFollowsThreeBackslashes" time="0.0" />
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="readShouldIgnoreEscapeSequenceThatFollowsThreeBackslashes" time="0.001" />
 
-      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="write_charArray_int_int_ShouldEncodeNonASCIICharactersCorrectly" time="0.0" />
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="write_charArray_int_int_ShouldEncodeNonASCIICharactersCorrectly" time="0.001" />
 
-      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="write_int_ShouldEncodeNonASCIICharactersCorrectly" time="0.0" />
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="write_int_ShouldEncodeNonASCIICharactersCorrectly" time="0.001" />
 
-      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="readShouldIgnoreEscapeSequenceThatFollowsOneBackslash" time="0.001" />
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="readShouldIgnoreEscapeSequenceThatFollowsOneBackslash" time="0.0" />
 
       <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_CharBuffer_ShouldConvertEscapeSequenceThatFollowsTwoBackslashes" time="0.0" />
 
@@ -8128,11 +8128,11 @@
 
       <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_CharBuffer_ShouldThrowExceptionOnMissingInputAfterU" time="0.0" />
 
-      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="skipShouldSkipAllIfToSkipIsGreaterThanInputLength" time="0.0" />
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="skipShouldSkipAllIfToSkipIsGreaterThanInputLength" time="0.001" />
 
       <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_CharBuffer_ShouldIgnoreMalformedEscapeSequenceThatFollowsOneBackslash" time="0.0" />
 
-      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_int_int_ShouldIgnoreEscapeSequenceThatFollowsOneBackslash" time="0.001" />
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_int_int_ShouldIgnoreEscapeSequenceThatFollowsOneBackslash" time="0.0" />
 
       <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_CharBuffer_ShouldThrowExceptionOnIncompleteEscapeSequence" time="0.0" />
 
@@ -8148,11 +8148,11 @@
 
       <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_CharBuffer_ShouldIgnoreEscapeSequenceThatFollowsOneBackslash" time="0.0" />
 
-      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_ShouldIgnoreEscapeSequenceThatFollowsOneBackslash" time="0.001" />
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_ShouldIgnoreEscapeSequenceThatFollowsOneBackslash" time="0.0" />
 
       <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="permissiveRead_charArray_int_int_ShouldAcceptIncompleteEscapeSequence" time="0.0" />
 
-      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_int_int_shouldReadOnAfterCollapsingEscapeSequences" time="0.0" />
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_int_int_shouldReadOnAfterCollapsingEscapeSequences" time="0.001" />
 
       <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="permissiveRead_CharBuffer_ShouldAcceptMissingInputAfterU" time="0.0" />
 

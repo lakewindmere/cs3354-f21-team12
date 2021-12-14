@@ -1,2 +1,6 @@
+[vfs.browser.filter]
+*\[^~#\]
 [action]
+toggle-statusbar
+open-file
 backspace

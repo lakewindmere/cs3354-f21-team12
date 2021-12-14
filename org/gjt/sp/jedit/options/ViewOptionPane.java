@@ -123,6 +123,8 @@ public class ViewOptionPane extends AbstractOptionPane
 			"search.beepOnSearchAutoWrap"));
 		addComponent(beepOnSearchAutoWrap);
 
+		neverShowScrollbar = new JCheckBox(jEdit.getProperty("options.view.neverShowScrollbar"));
+
 		/* Show buffer switcher */
 		addSeparator();
 		showBufferSwitcher = new JCheckBox(jEdit.getProperty(
@@ -251,6 +253,7 @@ public class ViewOptionPane extends AbstractOptionPane
 			.isSelected());
 		jEdit.setBooleanProperty("search.beepOnSearchAutoWrap",beepOnSearchAutoWrap
 			.isSelected());
+		jEdit.setBooleanProperty("options.view.neverShowScrollbar", neverShowScrollbar.isSelected());
 		jEdit.setBooleanProperty("view.showBufferSwitcher",
 			showBufferSwitcher.isSelected());
 		jEdit.setBooleanProperty("bufferswitcher.sortBuffers", sortBufferSwitcher.isSelected());
@@ -275,6 +278,7 @@ public class ViewOptionPane extends AbstractOptionPane
 	private JCheckBox floatableToolbars;
 	private JCheckBox showSearchbar;
 	private JCheckBox beepOnSearchAutoWrap;
+	private JCheckBox neverShowScrollbar;
 	private JCheckBox showBufferSwitcher;
 	private JTextField bufferSwitcherMaxRowCount;
 	private JComboBox<BufferSet.Scope> buffersetScope;
