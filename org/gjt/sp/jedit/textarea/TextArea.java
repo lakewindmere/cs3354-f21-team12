@@ -2315,6 +2315,11 @@ forward_scan:	do
 		return caretLine;
 	} //}}}
 
+	public int getCaretWordPosition()
+	{
+		return 3;
+	}
+
 	//{{{ getMagicCaretPosition() method
 	/**
 	 * Returns an internal position used to keep the caret in one
@@ -5272,6 +5277,8 @@ loop:		for(int i = lineNo - 1; i >= 0; i--)
 	protected int caret;
 	protected int caretLine;
 	private int caretScreenLine;
+	protected int caretWordPosition;
+	protected int wordCount;
 
 	private final java.util.List<StructureMatcher> structureMatchers;
 	private StructureMatcher.Match match;

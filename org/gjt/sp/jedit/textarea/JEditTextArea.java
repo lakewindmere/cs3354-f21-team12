@@ -59,7 +59,7 @@ import org.gjt.sp.jedit.print.PageBreakExtension;
  */
 public class JEditTextArea extends TextArea
 {
-
+	protected static int wordCount;
 	//{{{ JEditTextArea constructor
 	/**
 	 * Creates a new JEditTextArea.
@@ -359,6 +359,12 @@ public class JEditTextArea extends TextArea
 		}
 	} //}}}
 
+	public int getWordCount()
+	{
+		doWordCount(view,buffer.getText(0,buffer.getLength()));
+		return wordCount;
+	}
+
 	//{{{ doWordCount() method
 	@SuppressWarnings("fallthrough")
 	protected static void doWordCount(View view, String text)
@@ -389,7 +395,7 @@ public class JEditTextArea extends TextArea
 					break;
 			}
 		}
-
+		wordCount = words;
 		Object[] args = { characters, words, lines };
 		GUIUtilities.message(view,"wordcount",args);
 	} //}}}

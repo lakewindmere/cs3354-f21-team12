@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="WIN-9DGWQQ2" name="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" skipped="0" tests="30" time="0.219" timestamp="2021-12-09T19:56:23">
+<testsuite errors="0" failures="0" hostname="WIN-9DGWQQ2" name="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" skipped="0" tests="30" time="0.185" timestamp="2021-12-14T20:19:08">
   <properties>
     <property name="sun.boot.library.path.ivy.instance" value="C:\Program Files\Java\jdk-11.0.12\bin" />
     <property name="java.specification.version" value="11" />
@@ -15,7 +15,7 @@
     <property name="ivy.default.conf.dir.ivy.instance" value="jar:file:/C:/Users/Lake/Documents/VSCode%20Repositories/cs3354-f21-team12/lib/ivy/ivy-2.2.0.jar!/org/apache/ivy/core/settings" />
     <property name="ivy.conf.dir" value="C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\build" />
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.12\bin" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner testsfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junittestcases3665794808094876671.properties skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\build\test\raw-reports\IGNORETHIS.xml crashfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junitvmwatcher10488397703759544457.properties propsfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junit6839100897131724950.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner testsfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junittestcases11881898752022773608.properties skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\build\test\raw-reports\IGNORETHIS.xml crashfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junitvmwatcher653987262339771083.properties propsfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junit7325344431696235437.properties" />
     <property name="os.version.ivy.instance" value="10.0" />
     <property name="ivy.retrieve.pattern.ivy.instance" value="C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12/lib/[artifact]-[revision](-[classifier]).[ext]" />
     <property name="user.dir.ivy.instance" value="C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12" />
@@ -156,7 +156,7 @@
     <property name="sun.stderr.encoding" value="cp437" />
     <property name="jedit.version.final" value="true" />
     <property name="ivy.resolve.default.type.filter" value="*" />
-    <property name="org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer0" value="C:\Users\Lake\AppData\Local\Temp\null203068933" />
+    <property name="org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer0" value="C:\Users\Lake\AppData\Local\Temp\null470807968" />
     <property name="sun.management.compiler.ivy.instance" value="HotSpot 64-Bit Tiered Compilers" />
     <property name="ivy.cache.ttl.default.ivy.instance" value="10s" />
     <property name="file.separator" value="\" />
@@ -246,36 +246,36 @@
     <property name="ivy.resolved.configurations" value="default, master, compile, runtime, test, provided, sources, javadoc, ant-contrib, docbook, fop, launch4j, scripting, default-plugins, appbundler" />
     <property name="ivy.conf.url" value="file:/C:/Users/Lake/Documents/VSCode%20Repositories/cs3354-f21-team12/build/ivysettings.xml" />
   </properties>
-  <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentInserted1AtEndBigArray" time="0.154" />
-  <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentInserted1lineAtStartSmallArray" time="0.001" />
-  <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentInserted4lineInMiddleSmallArray" time="0.001" />
+  <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentInserted1AtEndBigArray" time="0.116" />
+  <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentInserted1lineAtStartSmallArray" time="0.002" />
+  <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentInserted4lineInMiddleSmallArray" time="0.002" />
   <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentInserted0LineInMiddleSmallArray" time="0.001" />
   <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentInserted1InMiddleSmallArray" time="0.001" />
-  <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentRemoved2lineInMiddle" time="0.003" />
-  <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentInserted0LineAtStartBigArray" time="0.004" />
-  <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="isScreenLineCountValidNegative" time="0.001" />
-  <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="setScreenLineCount" time="0.0" />
+  <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentRemoved2lineInMiddle" time="0.002" />
+  <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentInserted0LineAtStartBigArray" time="0.003" />
+  <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="isScreenLineCountValidNegative" time="0.0" />
+  <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="setScreenLineCount" time="0.001" />
   <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentRemoved1InMiddle" time="0.003" />
-  <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentRemoved0LineInMiddle" time="0.003" />
-  <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentInserted0LineInMiddleBigArray" time="0.002" />
-  <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentInserted0LineAtEndSmallArray" time="0.001" />
-  <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="isScreenLineCountValidNull" time="0.001" />
+  <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentRemoved0LineInMiddle" time="0.002" />
+  <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentInserted0LineInMiddleBigArray" time="0.001" />
+  <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentInserted0LineAtEndSmallArray" time="0.0" />
+  <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="isScreenLineCountValidNull" time="0.0" />
   <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="isScreenLineCountValidOverLimit" time="0.001" />
   <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentInserted1AtEndSmallArray" time="0.001" />
   <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="invalidateScreenLineCounts" time="0.001" />
-  <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentRemoved0LineAtEnd" time="0.001" />
-  <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentInserted4lineInMiddleBigArray" time="0.001" />
+  <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentRemoved0LineAtEnd" time="0.002" />
+  <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentInserted4lineInMiddleBigArray" time="0.002" />
   <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentRemoved1lineAtStart" time="0.001" />
   <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentInserted4lineAtStartBigArray" time="0.001" />
   <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentRemoved2lineAtStart" time="0.001" />
-  <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentInserted1InMiddleBigArray" time="0.002" />
-  <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentInserted4lineAtStartSmallArray" time="0.002" />
+  <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentInserted1InMiddleBigArray" time="0.001" />
+  <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentInserted4lineAtStartSmallArray" time="0.0" />
   <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentInserted0LineAtEndBigArray" time="0.001" />
   <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentInserted4lineAtEndSmallArray" time="0.001" />
   <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentInserted4lineAtEndBigArray" time="0.001" />
   <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentInserted1lineAtStartBigArray" time="0.001" />
   <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentRemoved0LineAtStart" time="0.001" />
-  <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentInserted0LineAtStartSmallArray" time="0.0" />
+  <testcase classname="org.gjt.sp.jedit.textarea.ScreenLineManagerTest" name="contentInserted0LineAtStartSmallArray" time="0.001" />
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

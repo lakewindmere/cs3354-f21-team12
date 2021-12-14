@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="WIN-9DGWQQ2" name="org.gjt.sp.util.SyntaxUtilitiesTest" skipped="0" tests="24" time="0.067" timestamp="2021-12-09T19:56:24">
+<testsuite errors="0" failures="0" hostname="WIN-9DGWQQ2" name="org.gjt.sp.util.SyntaxUtilitiesTest" skipped="0" tests="24" time="0.026" timestamp="2021-12-14T20:19:08">
   <properties>
     <property name="sun.boot.library.path.ivy.instance" value="C:\Program Files\Java\jdk-11.0.12\bin" />
     <property name="java.specification.version" value="11" />
@@ -15,7 +15,7 @@
     <property name="ivy.default.conf.dir.ivy.instance" value="jar:file:/C:/Users/Lake/Documents/VSCode%20Repositories/cs3354-f21-team12/lib/ivy/ivy-2.2.0.jar!/org/apache/ivy/core/settings" />
     <property name="ivy.conf.dir" value="C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\build" />
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.12\bin" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner testsfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junittestcases3665794808094876671.properties skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\build\test\raw-reports\IGNORETHIS.xml crashfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junitvmwatcher10488397703759544457.properties propsfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junit6839100897131724950.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner testsfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junittestcases11881898752022773608.properties skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\build\test\raw-reports\IGNORETHIS.xml crashfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junitvmwatcher653987262339771083.properties propsfile=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\junit7325344431696235437.properties" />
     <property name="os.version.ivy.instance" value="10.0" />
     <property name="ivy.retrieve.pattern.ivy.instance" value="C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12/lib/[artifact]-[revision](-[classifier]).[ext]" />
     <property name="user.dir.ivy.instance" value="C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12" />
@@ -156,7 +156,7 @@
     <property name="sun.stderr.encoding" value="cp437" />
     <property name="jedit.version.final" value="true" />
     <property name="ivy.resolve.default.type.filter" value="*" />
-    <property name="org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer0" value="C:\Users\Lake\AppData\Local\Temp\null203068933" />
+    <property name="org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer0" value="C:\Users\Lake\AppData\Local\Temp\null470807968" />
     <property name="sun.management.compiler.ivy.instance" value="HotSpot 64-Bit Tiered Compilers" />
     <property name="ivy.cache.ttl.default.ivy.instance" value="10s" />
     <property name="file.separator" value="\" />
@@ -248,27 +248,27 @@
   </properties>
   <testcase classname="org.gjt.sp.util.SyntaxUtilitiesTest" name="parseColorRed" time="0.001" />
   <testcase classname="org.gjt.sp.util.SyntaxUtilitiesTest" name="parseStyleError2" time="0.001" />
-  <testcase classname="org.gjt.sp.util.SyntaxUtilitiesTest" name="parseStyle" time="0.001" />
+  <testcase classname="org.gjt.sp.util.SyntaxUtilitiesTest" name="parseStyle" time="0.0" />
   <testcase classname="org.gjt.sp.util.SyntaxUtilitiesTest" name="parseStyleError" time="0.0" />
   <testcase classname="org.gjt.sp.util.SyntaxUtilitiesTest" name="parseColorBLue" time="0.0" />
   <testcase classname="org.gjt.sp.util.SyntaxUtilitiesTest" name="parseColorCyan" time="0.001" />
   <testcase classname="org.gjt.sp.util.SyntaxUtilitiesTest" name="parseColorGray" time="0.0" />
-  <testcase classname="org.gjt.sp.util.SyntaxUtilitiesTest" name="parseColorNull" time="0.0" />
+  <testcase classname="org.gjt.sp.util.SyntaxUtilitiesTest" name="parseColorNull" time="0.001" />
   <testcase classname="org.gjt.sp.util.SyntaxUtilitiesTest" name="parseColorPink" time="0.0" />
   <testcase classname="org.gjt.sp.util.SyntaxUtilitiesTest" name="parseColorWhat" time="0.0" />
-  <testcase classname="org.gjt.sp.util.SyntaxUtilitiesTest" name="parseColorRedAlpha" time="0.001" />
-  <testcase classname="org.gjt.sp.util.SyntaxUtilitiesTest" name="parseColorRedNoAlpha" time="0.001" />
+  <testcase classname="org.gjt.sp.util.SyntaxUtilitiesTest" name="parseColorRedAlpha" time="0.0" />
+  <testcase classname="org.gjt.sp.util.SyntaxUtilitiesTest" name="parseColorRedNoAlpha" time="0.0" />
   <testcase classname="org.gjt.sp.util.SyntaxUtilitiesTest" name="loadStyles" time="0.002" />
   <testcase classname="org.gjt.sp.util.SyntaxUtilitiesTest" name="parseColorBlack" time="0.0" />
   <testcase classname="org.gjt.sp.util.SyntaxUtilitiesTest" name="parseColorError" time="0.0" />
   <testcase classname="org.gjt.sp.util.SyntaxUtilitiesTest" name="parseColorGreen" time="0.0" />
   <testcase classname="org.gjt.sp.util.SyntaxUtilitiesTest" name="parseColorWhite" time="0.0" />
-  <testcase classname="org.gjt.sp.util.SyntaxUtilitiesTest" name="parseColorOrange" time="0.0" />
+  <testcase classname="org.gjt.sp.util.SyntaxUtilitiesTest" name="parseColorOrange" time="0.001" />
   <testcase classname="org.gjt.sp.util.SyntaxUtilitiesTest" name="parseColorMagenta" time="0.0" />
   <testcase classname="org.gjt.sp.util.SyntaxUtilitiesTest" name="parseColorYellow" time="0.0" />
   <testcase classname="org.gjt.sp.util.SyntaxUtilitiesTest" name="getColorHexStringRed" time="0.0" />
-  <testcase classname="org.gjt.sp.util.SyntaxUtilitiesTest" name="getColorHexString" time="0.001" />
-  <testcase classname="org.gjt.sp.util.SyntaxUtilitiesTest" name="parseColorDarkGray" time="0.0" />
+  <testcase classname="org.gjt.sp.util.SyntaxUtilitiesTest" name="getColorHexString" time="0.0" />
+  <testcase classname="org.gjt.sp.util.SyntaxUtilitiesTest" name="parseColorDarkGray" time="0.001" />
   <testcase classname="org.gjt.sp.util.SyntaxUtilitiesTest" name="parseColorlightGray" time="0.0" />
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
