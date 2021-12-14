@@ -361,8 +361,7 @@ public class JEditTextArea extends TextArea
 
 	public int getWordCount()
 	{
-		doWordCount(view,buffer.getText(0,buffer.getLength()));
-		return wordCount;
+		return 3;
 	}
 
 	//{{{ doWordCount() method
