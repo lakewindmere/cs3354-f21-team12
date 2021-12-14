@@ -1,0 +1,8 @@
+[vfs.browser.filter]
+*\[^~#\]
+[action]
+open-file
+backspace
+[vfs.browser.path]
+C:\\Users\\Lake\\Documents
+C:\\Users\\Lake\\Documents\\VSCode Repositories\\cs3354-f21-team12

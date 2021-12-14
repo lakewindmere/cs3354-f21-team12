@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE PERSPECTIVE SYSTEM "perspective.dtd">
+<PERSPECTIVE>
+<BUFFER AUTORELOAD="TRUE" AUTORELOAD_DIALOG="TRUE" UNTITLED="FALSE">C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\README.SRC.txt</BUFFER>
+<BUFFER AUTORELOAD="TRUE" AUTORELOAD_DIALOG="TRUE" UNTITLED="TRUE">C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\Untitled-1</BUFFER>
+<VIEW PLAIN="FALSE">
+<PANES>
+"C:\\Users\\Lake\\Documents\\VSCode Repositories\\cs3354-f21-team12\\README.SRC.txt" buffer "C:\\Users\\Lake\\Documents\\VSCode Repositories\\cs3354-f21-team12\\README.SRC.txt" buff "C:\\Users\\Lake\\Documents\\VSCode Repositories\\cs3354-f21-team12\\Untitled-1" buff "global" bufferset
+</PANES>
+<GEOMETRY X="417" Y="106" WIDTH="766" HEIGHT="588" EXT_STATE="0" />
+</VIEW>
+</PERSPECTIVE>

@@ -1,0 +1,141 @@
+Log file created on Thu Dec 09 13:56:27 CST 2021
+IMPORTANT:
+Because updating this file after every log message would kill
+performance, it will be *incomplete* unless you invoke the
+Utilities->Troubleshooting->Update Activity Log on Disk command!
+1:56:26 PM [main] [message] Log: When reporting bugs, please include the following information:
+1:56:27 PM [main] [message] Log: java.version=11.0.12
+1:56:27 PM [main] [message] Log: java.vm.version=11.0.12+8-LTS-237
+1:56:27 PM [main] [message] Log: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+1:56:27 PM [main] [message] Log: java.runtime.version=11.0.12+8-LTS-237
+1:56:27 PM [main] [message] Log: java.runtime.name=Java(TM) SE Runtime Environment
+1:56:27 PM [main] [message] Log: java.vendor=Oracle Corporation
+1:56:27 PM [main] [message] Log: java.compiler=null
+1:56:27 PM [main] [message] Log: os.name=Windows 10
+1:56:27 PM [main] [message] Log: os.version=10.0
+1:56:27 PM [main] [message] Log: os.arch=amd64
+1:56:27 PM [main] [message] Log: user.home=C:\Users\Lake
+1:56:27 PM [main] [message] Log: java.home=C:\Program Files\Java\jdk-11.0.12
+1:56:27 PM [main] [message] Log: java.class.path=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\build\jedit.jar
+1:56:27 PM [main] [message] jEdit: starting with command line arguments: -settings=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\build/settings
+1:56:27 PM [main] [debug] jEdit: before splash screen activation:224 ms
+1:56:27 PM [main] [debug] jEdit: after splash screen activation:602 ms
+1:56:27 PM [main] [debug] MiscUtilities: Saving backup of file "C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\build\settings\activity.log" to "C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\build\settings\settings-backup\activity.log~1~"
+1:56:27 PM [main] [notice] jEdit: jEdit version 5.6.0
+1:56:27 PM [main] [message] jEdit: Settings directory is C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\build\settings
+1:56:27 PM [main] [message] jEdit: jEdit home directory is C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\build
+1:56:27 PM [main] [debug] SplashScreen: init:26/295ms
+1:56:27 PM [main] [debug] SplashScreen: init system properties:39/334ms
+1:56:27 PM [main] [message] BeanShell: Beanshell Init
+1:56:27 PM [main] [debug] SplashScreen: init beanshell:40/374ms
+1:56:27 PM [main] [debug] SplashScreen: loading site properties:3/377ms
+1:56:27 PM [main] [debug] SplashScreen: loading user properties:3/380ms
+1:56:27 PM [main] [debug] GUIUtilities: Icon theme set to: tango
+1:56:27 PM [main] [debug] GUIUtilities: Loading icon theme from: jeditresource:/org/gjt/sp/jedit/icons/themes/tango/
+1:56:27 PM [main] [debug] SplashScreen: init GUI:3/383ms
+1:56:27 PM [main] [debug] EditServer: jEdit server started on port 51658
+1:56:27 PM [main] [debug] EditServer: Authorization key is 1717869835
+1:56:27 PM [main] [debug] SplashScreen: init server:14/397ms
+1:56:27 PM [main] [debug] jEdit: initPLAF non-edt old=javax.swing.plaf.metal.MetalLookAndFeel requested=null new=javax.swing.plaf.metal.MetalLookAndFeel
+1:56:27 PM [main] [debug] SplashScreen: init look and feel:21/418ms
+1:56:27 PM [main] [debug] SplashScreen: init VFS Manager:3/421ms
+1:56:27 PM [main] [debug] ActionSet: Loading actions from jar:file:/C:/Users/Lake/Documents/VSCode%20Repositories/cs3354-f21-team12/build/jedit.jar!/org/gjt/sp/jedit/actions.xml
+1:56:27 PM [main] [debug] DockableWindowManager: Loading dockables from jar:file:/C:/Users/Lake/Documents/VSCode%20Repositories/cs3354-f21-team12/build/jedit.jar!/org/gjt/sp/jedit/dockables.xml
+1:56:27 PM [main] [debug] SplashScreen: init resources:97/518ms
+1:56:27 PM [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+1:56:27 PM [main] [debug] SplashScreen: Migrate keymaps:43/561ms
+1:56:27 PM [main] [notice] jEdit: Loading plugins from C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\build\jars
+1:56:27 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=5.0,source=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\build\jars\QuickNotepad.jar,class=QuickNotepadPlugin]
+1:56:27 PM [main] [notice] jEdit: Loading plugins from C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\build\settings\jars
+1:56:27 PM [main] [debug] SplashScreen: init plugins:22/583ms
+1:56:27 PM [main] [message] HistoryModel: Loading history
+1:56:27 PM [main] [debug] SplashScreen: init history model:3/586ms
+1:56:27 PM [main] [message] BufferHistory: Loading C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\build\settings\recent.xml
+1:56:27 PM [main] [debug] SplashScreen: init buffer history:6/592ms
+1:56:27 PM [main] [message] KillRing: Loading C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\build\settings\killring.xml
+1:56:27 PM [main] [debug] SplashScreen: init killring:9/601ms
+1:56:27 PM [main] [debug] jEdit: initPLAF non-edt old=javax.swing.plaf.metal.MetalLookAndFeel requested=null new=javax.swing.plaf.metal.MetalLookAndFeel
+1:56:27 PM [main] [debug] jEdit: SOCKS proxy disabled
+1:56:27 PM [main] [debug] jEdit: HTTP proxy disabled
+1:56:27 PM [AWT-EventQueue-0] [debug] EditBus: PropertiesChanged[source=null]
+1:56:27 PM [main] [debug] SplashScreen: init various properties:111/712ms
+1:56:27 PM [main] [message] jEdit: Loading mode catalog file C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\build\modes\catalog
+1:56:27 PM [main] [debug] jEdit: Loading user mode catalog
+1:56:27 PM [main] [message] jEdit: Loading mode catalog file C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\build\settings\modes\catalog
+1:56:27 PM [main] [debug] SplashScreen: init modes:62/774ms
+1:56:27 PM [main] [debug] SplashScreen: activate plugins:7/781ms
+1:56:27 PM [main] [debug] Macros: Registered beanshell macro handler
+1:56:27 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=macros,source=null]
+1:56:27 PM [main] [debug] SplashScreen: init macros:22/803ms
+1:56:27 PM [main] [message] BeanShell: Running script C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\build\startup\startup.bsh
+1:56:27 PM [main] [notice] jEdit$2: Loading edit mode C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\build\modes\text.xml
+1:56:28 PM [main] [debug] String: BeanShell interpreter version 2.0b4-jedit
+1:56:28 PM [main] [debug] SplashScreen: run startup scripts:119/922ms
+1:56:28 PM [main] [debug] SplashScreen: run startup scripts:2/924ms
+1:56:28 PM [main] [debug] SplashScreen: run startup scripts:3/925ms
+1:56:28 PM [main] [debug] jEdit: main done:1314 ms
+1:56:28 PM [AWT-EventQueue-0] [message] PerspectiveManager: Loading C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\build\settings\perspective.xml
+1:56:28 PM [AWT-EventQueue-0] [notice] BufferLoadRequest: C:\Users\Lake\Documents\Courses Remaining.xlsx: Cp1252: java.nio.charset.UnmappableCharacterException: Input length = 1
+1:56:28 PM [AWT-EventQueue-0] [notice] ErrorListDialog$ErrorEntry: C:\Users\Lake\Documents\Courses Remaining.xlsx:
+1:56:28 PM [AWT-EventQueue-0] [notice] ErrorListDialog$ErrorEntry: The file could not be loaded correctly (some data might be lost) with
+1:56:28 PM [AWT-EventQueue-0] [notice] ErrorListDialog$ErrorEntry: the encoding "Cp1252".
+1:56:28 PM [AWT-EventQueue-0] [notice] ErrorListDialog$ErrorEntry: (java.nio.charset.UnmappableCharacterException: Input length = 1)
+1:56:28 PM [AWT-EventQueue-0] [notice] ErrorListDialog$ErrorEntry: Try selecting a different encoding.
+1:56:28 PM [AWT-EventQueue-0] [notice] ErrorListDialog$ErrorEntry: It can be selected with the menu File->Reload with Encoding.
+1:56:28 PM [AWT-EventQueue-0] [notice] ErrorListDialog$ErrorEntry: If you want it to be done automatically, add the candidates into
+1:56:28 PM [AWT-EventQueue-0] [notice] ErrorListDialog$ErrorEntry: "List of fallback encodings" in Encodings pane of Global Options.
+1:56:28 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Courses Remaining.xlsx (%USERPROFILE%\Documents\)]
+1:56:28 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=Courses Remaining.xlsx (%USERPROFILE%\Documents\)]
+1:56:28 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=Courses Remaining.xlsx (%USERPROFILE%\Documents\)]
+1:56:28 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=Courses Remaining.xlsx (%USERPROFILE%\Documents\)]
+1:56:28 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=README.SRC.txt (%USERPROFILE%\Documents\VSCode Repositories\cs3354-f21-team12\)]
+1:56:28 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=README.SRC.txt (%USERPROFILE%\Documents\VSCode Repositories\cs3354-f21-team12\)]
+1:56:28 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=README.SRC.txt (%USERPROFILE%\Documents\VSCode Repositories\cs3354-f21-team12\)]
+1:56:28 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=README.SRC.txt (%USERPROFILE%\Documents\VSCode Repositories\cs3354-f21-team12\)]
+1:56:28 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-1 (%USERPROFILE%\Documents\VSCode Repositories\cs3354-f21-team12\)]
+1:56:28 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=Untitled-1 (%USERPROFILE%\Documents\VSCode Repositories\cs3354-f21-team12\)]
+1:56:28 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=Untitled-1 (%USERPROFILE%\Documents\VSCode Repositories\cs3354-f21-team12\)]
+1:56:28 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=Untitled-1 (%USERPROFILE%\Documents\VSCode Repositories\cs3354-f21-team12\)]
+1:56:28 PM [AWT-EventQueue-0] [debug] BufferSet: 1713636023: addBufferSetListener org.gjt.sp.jedit.EditPane[inactive]
+1:56:28 PM [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[inactive]]
+1:56:28 PM [AWT-EventQueue-0] [debug] BufferSet: 1713636023 addBufferAt(Courses Remaining.xlsx (%USERPROFILE%\Documents\),-1)
+1:56:28 PM [AWT-EventQueue-0] [debug] BufferSet: 1713636023: Buffer added Courses Remaining.xlsx (%USERPROFILE%\Documents\) at 0
+1:56:28 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=CREATED,source=org.gjt.sp.jedit.EditPane[inactive]]
+1:56:28 PM [AWT-EventQueue-0] [debug] BufferSet: 1713636023 addBufferAt(Courses Remaining.xlsx (%USERPROFILE%\Documents\),0)
+1:56:28 PM [AWT-EventQueue-0] [debug] BufferSet: 1713636023 addBufferAt(Courses Remaining.xlsx (%USERPROFILE%\Documents\),1)
+1:56:28 PM [AWT-EventQueue-0] [debug] BufferSet: 1713636023 addBufferAt(README.SRC.txt (%USERPROFILE%\Documents\VSCode Repositories\cs3354-f21-team12\),2)
+1:56:28 PM [AWT-EventQueue-0] [debug] BufferSet: 1713636023: Buffer added README.SRC.txt (%USERPROFILE%\Documents\VSCode Repositories\cs3354-f21-team12\) at 1
+1:56:28 PM [AWT-EventQueue-0] [debug] BufferSet: 1713636023 addBufferAt(Untitled-1 (%USERPROFILE%\Documents\VSCode Repositories\cs3354-f21-team12\),3)
+1:56:28 PM [AWT-EventQueue-0] [debug] BufferSet: 1713636023: Buffer added Untitled-1 (%USERPROFILE%\Documents\VSCode Repositories\cs3354-f21-team12\) at 2
+1:56:28 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CREATED,source=org.gjt.sp.jedit.View[active]]
+1:56:29 PM [AWT-EventQueue-0] [debug] EditBus: EditorStarted[source=null]
+1:56:29 PM [AWT-EventQueue-0] [message] jEdit: Startup complete: 2295 ms
+1:56:29 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+1:56:33 PM [AWT-EventQueue-0] [debug] JEditTextArea: InputMethodSupport is activated
+1:56:40 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+1:56:42 PM [AWT-EventQueue-0] [debug] EditBus: EditorExitRequested[source=org.gjt.sp.jedit.View[active]]
+1:56:42 PM [AWT-EventQueue-0] [message] PerspectiveManager: Saving C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\build\settings\perspective.xml
+1:56:42 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\build\settings\perspective.xml" to "C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\build\settings\settings-backup\perspective.xml~1~"
+1:56:42 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+1:56:42 PM [AWT-EventQueue-0] [debug] EditBus: EditorExiting[source=null]
+1:56:42 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CLOSED,source=org.gjt.sp.jedit.View[active]]
+1:56:42 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+1:56:42 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=DESTROYED,source=org.gjt.sp.jedit.EditPane[active]]
+1:56:42 PM [AWT-EventQueue-0] [debug] BufferSet: 1713636023: Buffer removed Courses Remaining.xlsx (%USERPROFILE%\Documents\)
+1:56:42 PM [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+1:56:42 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+1:56:42 PM [AWT-EventQueue-0] [debug] BufferSetManager: Buffer:Courses Remaining.xlsx (%USERPROFILE%\Documents\) is in no bufferSet anymore, closing it
+1:56:42 PM [AWT-EventQueue-0] [debug] BufferSet: 1713636023: Buffer removed README.SRC.txt (%USERPROFILE%\Documents\VSCode Repositories\cs3354-f21-team12\)
+1:56:42 PM [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+1:56:42 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+1:56:42 PM [AWT-EventQueue-0] [debug] BufferSetManager: Buffer:README.SRC.txt (%USERPROFILE%\Documents\VSCode Repositories\cs3354-f21-team12\) is in no bufferSet anymore, closing it
+1:56:42 PM [AWT-EventQueue-0] [debug] BufferSet: 1713636023: Buffer removed Untitled-1 (%USERPROFILE%\Documents\VSCode Repositories\cs3354-f21-team12\)
+1:56:42 PM [AWT-EventQueue-0] [debug] BufferSetManager: Buffer:Untitled-1 (%USERPROFILE%\Documents\VSCode Repositories\cs3354-f21-team12\) is in no bufferSet anymore, closing it
+1:56:42 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=5.0,source=C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\build\jars\QuickNotepad.jar,class=QuickNotepadPlugin]
+1:56:42 PM [AWT-EventQueue-0] [message] HistoryModel: Saving history
+1:56:42 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\build\settings\history" to "C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\build\settings\settings-backup\history~1~"
+1:56:42 PM [AWT-EventQueue-0] [message] BufferHistory: Saving C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\build\settings\recent.xml
+1:56:42 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\build\settings\recent.xml" to "C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\build\settings\settings-backup\recent.xml~1~"
+1:56:42 PM [AWT-EventQueue-0] [message] KillRing: Saving C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\build\settings\killring.xml
+1:56:42 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\build\settings\killring.xml" to "C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\build\settings\settings-backup\killring.xml~1~"
+1:56:42 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\build\settings\properties" to "C:\Users\Lake\Documents\VSCode Repositories\cs3354-f21-team12\build\settings\settings-backup\properties~1~"
