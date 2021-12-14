@@ -336,6 +336,7 @@ combined-options.label=옵션($O)...
 #{{{ Recent Directories menu
 recent-directories.label=최근 디렉토리($R)
 no-recent-dirs.label=최근 디렉토리가 없습니다
+clear-recent-directories.label=Clear Recent Directories in Chinese
 #}}}
 
 #{{{ Favorites menu

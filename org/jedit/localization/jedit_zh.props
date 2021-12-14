@@ -118,6 +118,7 @@ recent-files.label=最近文件(Recent $Files)
 recent-files.textfield.tooltip=在此输入前缀过滤或者全局模式
 no-recent-files.label=没有最近文件
 clear-recent-files.label=清除最近文件
+clear-recent-directories.label=Clear Recent Directories in Chinese (Simplified)
 #}}}
 
 reload-encoding.label=重新加载编码(Reload with $Encoding)

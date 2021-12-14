@@ -338,6 +338,7 @@ combined-options.label=Настройки...($O)
 #{{{ Recent Directories menu
 recent-directories.label=Последние каталоги($R)
 no-recent-dirs.label=Нет каталогов в списке
+clear-recent-directories.label=Clear Recent Directories in Russian
 #}}}
 
 #{{{ Favorites menu

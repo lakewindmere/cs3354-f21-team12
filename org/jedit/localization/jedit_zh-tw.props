@@ -336,6 +336,7 @@ combined-options.label=設定集(O)...
 #{{{ Recent Directories menu
 recent-directories.label=最近目錄(R)
 no-recent-dirs.label=無最近目錄
+clear-recent-directories.label=Clear Recent Directories in Taiwanese
 #}}}
 
 #{{{ Favorites menu

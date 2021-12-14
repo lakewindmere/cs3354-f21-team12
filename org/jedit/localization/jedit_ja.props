@@ -335,6 +335,7 @@ combined-options.label=オプション($O)...
 #{{{ Recent Directories menu
 recent-directories.label=最近開いたディレクトリ($R)
 no-recent-dirs.label=最近開いたディレクトリはありません
+clear-recent-directories.label=Clear Recent Directories in Japanese
 #}}}
 
 #{{{ Favorites menu
